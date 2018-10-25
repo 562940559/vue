@@ -6,12 +6,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
-
+import { Button } from 'mint-ui'
+console.log(this.Button)
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  mounted (){
+    
   }
 }
 </script>
